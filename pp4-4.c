@@ -23,43 +23,9 @@ int main(void)
 	double estTime = 0.000;
 	double wonTime = 0.000;
 	
-	int hpArray[17];
-	hpArray[0] = 1200; //BV
-	hpArray[1] = 887; //918
-	hpArray[2] = 900; //FLF
-	hpArray[3] = 650; //C7
-	hpArray[4] = 305; //STI
-	hpArray[5] = 545; //GTR
-	hpArray[6] = 740; //LV
-	hpArray[7] = 1360; //K11
-	hpArray[8] = 192; //NM
-	hpArray[9] = 140; //NS
-	hpArray[10] = 217; //944T
-	hpArray[11] = 165; //SL
-	hpArray[12] = 268; //S80
-	hpArray[13] = 425; //M4
-	hpArray[14] = 145; //MS
-	hpArray[15] = 355; //CLA
-	hpArray[16] = 245; //GN
+	int hpArray[17] = {1200, 887, 900, 650, 305, 545, 740, 1360, 192, 140, 217, 165, 268, 425, 145, 355, 245};
 	
-	int lbsArray[17];
-	lbsArray[0] = 4044; //BV
-	lbsArray[1] = 3602; //918
-	lbsArray[2] = 2767; //FLF
-	lbsArray[3] = 3524; //C7
-	lbsArray[4] = 3386; //STI
-	lbsArray[5] = 3827; //GTR
-	lbsArray[6] = 3278; //LV
-	lbsArray[7] = 2998; //K11
-	lbsArray[8] = 3165; //NM
-	lbsArray[9] = 2600; //NS
-	lbsArray[10] = 2850; //944T
-	lbsArray[11] = 3290; //SL
-	lbsArray[12] = 3653; //S80
-	lbsArray[13] = 3530; //M4
-	lbsArray[14] = 3302; //MS
-	lbsArray[15] = 3262; //CLA
-	lbsArray[16] = 3600; //GN
+	int lbsArray[17] = {4044, 3602, 2767, 3524, 3386, 3827, 3278, 2998, 3165, 2600, 2850, 3290, 3653, 3530, 3302, 3262, 3600};
 	
 	printf("------------------------\n");
 	printf(" _____                _ \n");
